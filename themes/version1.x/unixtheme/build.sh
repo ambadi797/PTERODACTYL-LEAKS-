@@ -123,9 +123,9 @@ print_brake 25
 cd /var/www/pterodactyl
 mkdir -p temp
 cd temp
-curl -sSLo ZingTheme.tar.gz https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoThemes/${SCRIPT_VERSION}/themes/version1.x/ZingTheme/ZingTheme.tar.gz
-tar -xzvf ZingTheme.tar.gz
-cd ZingTheme
+curl -sSLo unixtheme.tar.gz https://github.com/ambadi797/PTERODACTYL-LEAKS-/blob/main/themes/version1.x/unixtheme/unixtheme.tar.gz
+tar -xzvf unixtheme.tar.gz
+cd unixtheme
 cp -rf -- * /var/www/pterodactyl
 cd
 cd /var/www/pterodactyl
